@@ -18,7 +18,7 @@ exports.create = function (req, res) {
             console.log('err', err);
             return next(err);
         }
-        res.send('Email Created successfully')
+        res.send({'msg':'Email Created successfully', 'success': true});
     })
 };
 
