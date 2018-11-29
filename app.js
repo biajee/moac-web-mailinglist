@@ -22,7 +22,7 @@ app.use('/', (req, res) => {
   res.sendFile(__dirname + "/index.html");
 });
 
-var port = 3000;
+var port = 3002;
 
 app.listen(port, () => {
     console.log('Server is up and running on port numner ' + port);
